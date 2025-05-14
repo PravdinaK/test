@@ -12,16 +12,16 @@ public class FlightBuilder {
     public static List<Flight> createFlights() {
         LocalDateTime threeDaysFromNow = LocalDateTime.now().plusDays(3);
         return Arrays.asList(
-            createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2)),
-            createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
-                         threeDaysFromNow.plusHours(3), threeDaysFromNow.plusHours(5)),
-            createFlight(threeDaysFromNow.minusDays(6), threeDaysFromNow),
-            createFlight(threeDaysFromNow, threeDaysFromNow.minusHours(6)),
-            createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
-                         threeDaysFromNow.plusHours(5), threeDaysFromNow.plusHours(6)),
-            createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
-                         threeDaysFromNow.plusHours(3), threeDaysFromNow.plusHours(4),
-                         threeDaysFromNow.plusHours(6), threeDaysFromNow.plusHours(7))
+                createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2)),
+                createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
+                        threeDaysFromNow.plusHours(3), threeDaysFromNow.plusHours(5)),
+                createFlight(threeDaysFromNow.minusDays(6), threeDaysFromNow),
+                createFlight(threeDaysFromNow, threeDaysFromNow.minusHours(6)),
+                createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
+                        threeDaysFromNow.plusHours(5), threeDaysFromNow.plusHours(6)),
+                createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
+                        threeDaysFromNow.plusHours(3), threeDaysFromNow.plusHours(4),
+                        threeDaysFromNow.plusHours(6), threeDaysFromNow.plusHours(7))
         );
     }
 

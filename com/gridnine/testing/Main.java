@@ -1,7 +1,7 @@
 package com.gridnine.testing;
 
 import com.gridnine.testing.filter.FilterFactory;
-import com.gridnine.testing.filter.FlightBuilder;
+import com.gridnine.testing.util.FlightBuilder;
 import com.gridnine.testing.filter.FlightFilter;
 import com.gridnine.testing.model.Flight;
 
